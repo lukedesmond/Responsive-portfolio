@@ -61,9 +61,6 @@ main {
   text-align: center;
 }
 
-
-
-
 .footer {
   position:absolute;
   bottom: 0;
@@ -95,43 +92,33 @@ main {
 }
 
 #about-image {
-  /* Positioning */
-  float: left;
 
-  /* Box-model */
+  float: left;
   width: 200px;
   margin: 0 20px 10px 0;
 }
-/* END ABOUT-ME PAGE */
 
-
-/* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
 }
-/* END PORTFOLIO PAGE */
 
-
-/* CONTACT FORM PAGE  */
 .form-control {
-  /* give input boxes right angles */
+ 
   border-radius: 0;
-
-  /* keep from horizontally resizing text area */
   min-width: 100%;
   max-width: 100%;
 }
 
 .submit-btn {
-  /* Box-model */
+
   padding: 15px 30px;
   font-size: 16px;
   font-weight: lighter;
 
-  /* Typography */
+  
   color: #fff;
 
-  /* Visual */
+  
   background-color:#d39e00;
   border: 0;
 }
@@ -140,4 +127,4 @@ main {
   opacity: .7;
 }
 
-/* END CONTACT FORM PAGE */
+
