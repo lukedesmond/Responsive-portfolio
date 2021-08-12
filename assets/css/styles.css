@@ -17,6 +17,7 @@ main {
   background-color: #fff;
   padding: 30px;
   margin-bottom: 30px;
+  border-radius: 15px;
 }
 
 .block-header {
@@ -59,6 +60,16 @@ main {
 #images {
   padding-top: 15px;
   text-align: center;
+  border-radius: 15px;
+}
+
+#CVbutton {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #d39e00;
+  border: 0;
 }
 
 .footer {
@@ -84,41 +95,52 @@ main {
 .about-me-header {
   margin-bottom: 33px;
   font-family: 'Abril Fatface', cursive;
-
-
   font-size: 32px;
   font-weight: bold;
   color: #d39e00;
 }
 
 #about-image {
-
+  /* Positioning */
   float: left;
+
+  /* Box-model */
   width: 200px;
   margin: 0 20px 10px 0;
+  border-radius: 10px;
 }
+/* END ABOUT-ME PAGE */
 
+
+/* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
 }
 
+/* END PORTFOLIO PAGE */
+
+
+/* CONTACT FORM PAGE  */
 .form-control {
- 
+  /* give input boxes right angles */
   border-radius: 0;
+
+  /* keep from horizontally resizing text area */
   min-width: 100%;
   max-width: 100%;
 }
 
 .submit-btn {
-
+  /* Box-model */
   padding: 15px 30px;
   font-size: 16px;
   font-weight: lighter;
+  border-radius: 10px;
 
-  
+  /* Typography */
   color: #fff;
 
-  
+  /* Visual */
   background-color:#d39e00;
   border: 0;
 }
@@ -127,4 +149,16 @@ main {
   opacity: .7;
 }
 
+/* END CONTACT FORM PAGE */
 
+#myPortfolio{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: #d39e00;
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  
+}
