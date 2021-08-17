@@ -51,12 +51,5 @@ Bootstrap
 ### Badges 
 <img src = "https://img.shields.io/badge/HTML-100%25-red"
 /><br>
-<img src = "https://img.shields.io/badge/JS-100%25-blue"
-/><br>
 <img src = "https://img.shields.io/badge/CSS-100%25-green"
 />
-
----
-<a name = "License"></a>
-### License 
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
